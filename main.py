@@ -1,7 +1,7 @@
 import os
 import ifcopenshell
 
-#from .rules import windowRule
+#from .rules import beamRule
 #from .rules import doorRule
 
 #Grey model:
@@ -29,8 +29,8 @@ print(model)
 things = model.by_type('IfcBeam')
 print(len(things))
 
-#windowResult = windowRule.checkRule(model)
+beamResult = beamRule.checkRule(model)
 #doorResult = doorRule.checkRule(model)
 
-#print("Window result:", windowResult)
+print("Amount of beams in model:", beamResult)
 #print("Door result:", doorResult)
