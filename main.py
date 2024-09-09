@@ -2,7 +2,6 @@ import os
 import ifcopenshell
 import sys
 
-#Coloured model:
 # Få den nuværende sti til 'main.py'
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
@@ -26,9 +25,10 @@ model_path = os.path.join(models_directory, model_filename)
 model = ifcopenshell.open(model_path)
 
 # Eksempel på at få IfcBeam elementer
-things = model.by_type('IfcBeam')
-print(len(things))
+# things = model.by_type('IfcBeam')
+# print(len(things))
 
+# Counting amounts
 beamResult = beamRule(model)
 doorResult = doorRule(model)
 
