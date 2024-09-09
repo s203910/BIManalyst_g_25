@@ -1,12 +1,22 @@
 import ifcopenshell
 
-from .rules import windowRule
-from .rules import doorRule
+#from .rules import windowRule
+#from .rules import doorRule
 
-model = ifcopenshell.open("path/to/ifcfile.ifc")
+#Grey model:
+#model = ifcopenshell.open(r'C:\Users\thoma\Documents\GitHub\AdvBIM-G25\models\CES_BLD_24_06_STR.ifc')
 
-windowResult = windowRule.checkRule(model)
-doorResult = doorRule.checkRule(model)
+#Coloured model:
+model = ifcopenshell.open(r'C:\Users\thoma\Documents\GitHub\AdvBIM-G25\models\LLYN - STRU.ifc')
 
-print("Window result:", windowResult)
-print("Door result:", doorResult)
+print(model)
+
+things = model.by_type('IfcBeam')
+
+print(len(things))
+
+#windowResult = windowRule.checkRule(model)
+#doorResult = doorRule.checkRule(model)
+
+#print("Window result:", windowResult)
+#print("Door result:", doorResult)
