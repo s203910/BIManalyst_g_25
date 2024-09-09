@@ -10,7 +10,6 @@ sys.path.append(os.path.join(current_directory, 'rules'))
 
 # Henter funktionen fra mappen
 from checkRule import beamRule
-from checkRule import doorRule
 
 # Find stien til 'models'-mappen
 models_directory = os.path.join(current_directory, 'models')
@@ -28,9 +27,14 @@ model = ifcopenshell.open(model_path)
 # things = model.by_type('IfcBeam')
 # print(len(things))
 
-# Counting amounts
-beamResult = beamRule(model)
-doorResult = doorRule(model)
+# Counting amount
+beamAmount = beamRule(model)
 
-print("Amount of beams in model:", beamResult)
-print("Amount of doors in model:", doorResult)
+print("Amount of beams in model:", beamAmount)
+
+beams_required = 565
+
+if beams_required == beamAmount:
+    print ('RESULT: The number of beams is correct')
+else:
+    print ('RESULT: The number of beams is wrong')
