@@ -9,7 +9,8 @@ current_directory = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(current_directory, 'rules'))
 
 # Henter funktionen fra mappen
-from checkRule import beamRule
+from rules.checkRule import elementRule
+from rules.numberElementCheck import amountElement
 
 # Find stien til 'models'-mappen
 models_directory = os.path.join(current_directory, 'models')
@@ -23,18 +24,13 @@ model_path = os.path.join(models_directory, model_filename)
 # Åbn modellen
 model = ifcopenshell.open(model_path)
 
-# Eksempel på at få IfcBeam elementer
-# things = model.by_type('IfcBeam')
-# print(len(things))
-
-# Counting amount
-beamAmount = beamRule(model)
-
-print("Amount of beams in model:", beamAmount)
-
+# Which elements needs to be checked
+element = 'IfcBeam'
+# Amount required
 beams_required = 565
 
-if beams_required == beamAmount:
-    print ('RESULT: The number of beams is correct')
-else:
-    print ('RESULT: The number of beams is wrong')
+# Check for amount of beams
+beamAmount = elementRule(model, element)
+
+# Check if the amount is same as the required amount
+amountElement(model, element, beams_required)

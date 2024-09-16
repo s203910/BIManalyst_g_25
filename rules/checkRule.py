@@ -1,8 +1,8 @@
 import ifcopenshell
 
-def beamRule(model):
-    beams = model.by_type('IfcBeam')
+def elementRule(model, element):
+    elements = model.by_type(element)
 
-    result = len(beams)
+    result = len(elements)
 
-    return result
+    return print(f'The amounts of {element} is {result}')
