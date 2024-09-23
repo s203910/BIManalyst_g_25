@@ -24,14 +24,14 @@ model_path = os.path.join(models_directory, model_filename)
 
 # Åbn modellen
 model = ifcopenshell.open(model_path)
-
+"""
 # Which elements needs to be checked
 element = 'IfcBeam'
 
 # Specifik beam type
 elementName = 'D22-400'
 
-""" Kan du evt. tage med hvis du synes
+ Kan du evt. tage med hvis du synes
 # Amount required
 beams_required = 565
 
@@ -43,5 +43,5 @@ amountElement(model, element, beams_required)
 """
 
 # Check specifik element
-specifikElement(model, element, elementName)
+specifikElement(model)
 

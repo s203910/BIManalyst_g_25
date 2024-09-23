@@ -1,8 +1,15 @@
 import ifcopenshell
 
-def specifikElement(model, element, elementName):
+def specifikElement(model):
+
+    # Vores element, som er en beam
+    element = 'IfcBeam'
+
     # Hent alle elementer af typen 'element' fra modellen
     elements = model.by_type(element)
+
+    # Specifik beam type
+    elementName = 'D22-400'
 
     # Liste til at gemme elementer, der matcher navnet
     num_elements = []
