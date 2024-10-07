@@ -12,10 +12,10 @@ IfcProperties for IfcBeams need to be gathered.
 This script is relevant in the design phase.
 The BIM purpose is Gather.
 The structural analysis use case is closest to how our use case operates.
-See ![alt text]https://github.com/s203910/BIManalyst_g_25/blob/main/A2/diagram.svg
+See ![alt text]https://github.com/s203910/BIManalyst_g_25/blob/main/A2/image.png "png_diagram"
 
 # A2d
-Our script / test is applied in the BPMN step shown in ![alt text]https://github.com/s203910/BIManalyst_g_25/blob/main/A2/diagram.svg
+Our script / test is applied in the BPMN step shown in ![alt text]https://github.com/s203910/BIManalyst_g_25/blob/main/A2/image.png "png_diagram"
 
 # A2e
 The tool will gather an amount of material properties for selected structural elements (in this case IfcBeams), and determine whether or not sufficient information is given, in order to be able to make a structural analysis from the information given in the IfcModel
