@@ -21,10 +21,10 @@ model_filename = 'CES_BLD_24_06_STR.ifc'
 # Saml hele stien til IFC-filen
 model_path = os.path.join(models_directory, model_filename)
 
-"""
+
 # Kald funktionen
 cross_section_overview = analyze_cross_sections(model_path)
-"""
+
 
 cross_sections = [
     (50.0, 270.0, 21000),  # bredde, højde, E-modul

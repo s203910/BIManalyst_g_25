@@ -25,4 +25,4 @@
  The statics engineers and modellers would use this tool, both to ensure model is correct and read information for the model to ensure structural integrity.
 
  **Model requirements**
- For the tool to work the model must have IfcBeam's, IfcElementName's, geometrical dimensions on the beams and these must be an IfcMappedItem an IfcExtrudedAreaSolid with an IfcRectagnleProfileDef like in Building#2406. Material properties are not required as the model will identify if these are missing for the IfcBeams and then create these, but if there arent any beams set up in the IfcModel to begin with, the tool does nothing.
+ For the tool to work the model must have IfcBeam's, IfcElementName's, geometrical dimensions on the beams and these must be an IfcMappedItem an IfcExtrudedAreaSolid with an IfcRectagnleProfileDef like in Building#2406. Material properties are not required as the model will identify if these are missing for the IfcBeams and then create these, but if there arent any beams set up in the IfcModel to begin with, the tool does nothing. 
