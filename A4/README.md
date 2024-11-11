@@ -1,9 +1,5 @@
-<<<<<<< Updated upstream
-# **Getting into Github**
-Using Github Desktop simplifies the process of working together in Git, as GUI platform helps beginners visualise the steps of pushing and pulling repositories. Quickly getting familiar with this tool is crucial for aspiring groups of coorporating BIM-gurus.
-=======
 # **Getting into Github Desktop**
-
+Using Github Desktop simplifies the process of working together in Git, as GUI platform helps beginners visualise the steps of pushing and pulling repositories. Quickly getting familiar with this tool is crucial for aspiring groups of coorporating BIM-gurus.
 
 1. Visit the download page for [GitHub Desktop](https://github.com/apps/desktop)
 
@@ -17,4 +13,3 @@ Using Github Desktop simplifies the process of working together in Git, as GUI p
 ![alt text](https://github.com/s203910/BIManalyst_g_25/blob/main/A4/image.png "Github Desktop now ready to use!")
 
 
->>>>>>> Stashed changes
