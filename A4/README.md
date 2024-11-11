@@ -24,6 +24,12 @@ Using Github Desktop simplifies the process of working together in Git, as GUI p
 
 In order to get your repository onto your computer and interact with it through Github Desktop, you'll need to clone it. Clone by going to current repository and selecting the desired Github repository pressing clone.
 
+<img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/press_add.png" alt="Press add in the op left corner" width="600"/>
+
+<img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/clone_rep.png" alt="Press 'Clone repository'" width="600"/>
+
+<img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/Clone_button.png" alt="Select the choosen repository and press 'Clone'" width="600"/>
+
 **Pushing to origin:**
 
 When changes have been made in your repository, this will need to be pushed to origin for others to see and interact with it. When files are saved, write a summary and optionally a longer description, and press "Commit to main" as shown.
