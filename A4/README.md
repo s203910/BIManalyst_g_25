@@ -25,5 +25,17 @@ In order to get your repository onto your computer and interact with it through 
 **Pushing to origin**
 When changes have been made in your repository, this will need to be pushed to origin for others to see and interact with it. When files are saved, write a summary and optionally a longer description, and press "Commit to main" as shown.
 
+<img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/Pushing_code_save.png" alt="Save changes in VSC" width="600"/>
+
+<img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/Commit.png" alt="Commit to main" width="600"/>
+
+<img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/Push.png" alt="Push to origin" width="600"/>
+
 **Pulling from origin**
 When someone else has pushed to origin, you will want to pull from origin to import the changes and additions they have made. This is done by pressing "Fetch origin" and then "Pull origin" as highlighted.
+
+<img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/Fetch_button.png" alt="Fetch origin" width="600"/>
+
+<img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/Pull_button.png" alt="Pull origin" width="600"/>
+
+<img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/Open_VSC.png" alt="Open VSC to see origin" width="600"/>
