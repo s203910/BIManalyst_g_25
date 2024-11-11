@@ -1,6 +1,8 @@
 # **Getting into Github Desktop**
 Using Github Desktop simplifies the process of working together in Git, as GUI platform helps beginners visualise the steps of pushing and pulling repositories. Quickly getting familiar with this tool is crucial for aspiring groups of coorporating BIM-gurus.
 
+
+# Downloading GitHub Desktop
 1. Visit the download page for [GitHub Desktop](https://github.com/apps/desktop)
 
 2. Click Download for Windows.
@@ -14,4 +16,9 @@ Using Github Desktop simplifies the process of working together in Git, as GUI p
 4. GitHub Desktop will now launch after downloading.
 
 <img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/image.png" alt="Github Desktop now ready to use!" width="600"/>
+
+# Basic of using Github Dekstop
+-Pushing
+-Fetching
+-Cloning repository
 
