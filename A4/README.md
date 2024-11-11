@@ -20,10 +20,10 @@ Using Github Desktop simplifies the process of working together in Git, as GUI p
 # Basic of using Github Dekstop
 
 **Cloning repository**
-In order to get your repository onto your computer and interact with it through Github Desktop, you'll need to clone it.
+In order to get your repository onto your computer and interact with it through Github Desktop, you'll need to clone it. Clone by going to current repository and pasting the web link of your Github repository.
 
 **Pushing to origin**
 When changes have been made in your repository, this will need to be pushed to origin for others to see and interact with it. When files are saved, write a summary and optionally a longer description, and press "Commit to main" as shown.
 
-**Fetching origin**
-
+**Pulling from origin**
+When someone else has pushed to origin, you will want to pull from origin to import the changes and additions they have made. This is done by pressing "Fetch origin" and then "Pull origin" as highlighted.
