@@ -9,6 +9,13 @@
  Description of the tool
  
  Instructions to run the tool
+ krav:
+ -model i samme sti
+ -angiv model navn
+ -kør programmet
+ -Se hvilke bjælker der ikke har E-modul, I og W
+ -angiv hvilke bjælker med tværsnit du vil give E-modul
+ -done
 
 # **Advanced Building Design**
  **Building stage**
