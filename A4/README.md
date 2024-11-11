@@ -38,4 +38,4 @@ When someone else has pushed to origin, you will want to pull from origin to imp
 
 <img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/Pull_button.png" alt="Pull origin" width="600"/>
 
-<img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/Open_VSC.png" alt="Open VSC to see origin" width="600"/>
+<img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/Open_VSC.png" alt="Open VSC to see origin" width="600"/> 
