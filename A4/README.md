@@ -1,9 +1,10 @@
-# **Getting into Github Desktop**
+# Guide to getting into Github Desktop
 Using Github Desktop simplifies the process of working together in Git, as GUI platform helps beginners visualise the steps of pushing and pulling repositories. Quickly getting familiar with this tool is crucial for aspiring groups of coorporating BIM-gurus.
 
 
 # Downloading GitHub Desktop
-1. Visit the download page for [GitHub Desktop](https://github.com/apps/desktop)
+
+1. Visit the download page for [GitHub Desktop](https://github.com/apps/desktop).
 
 2. Click Download for Windows.
 
@@ -19,10 +20,12 @@ Using Github Desktop simplifies the process of working together in Git, as GUI p
 
 # Basic of using Github Dekstop
 
-**Cloning repository**
-In order to get your repository onto your computer and interact with it through Github Desktop, you'll need to clone it. Clone by going to current repository and pasting the web link of your Github repository.
+**Cloning repository:**
 
-**Pushing to origin**
+In order to get your repository onto your computer and interact with it through Github Desktop, you'll need to clone it. Clone by going to current repository and selecting the desired Github repository pressing clone.
+
+**Pushing to origin:**
+
 When changes have been made in your repository, this will need to be pushed to origin for others to see and interact with it. When files are saved, write a summary and optionally a longer description, and press "Commit to main" as shown.
 
 <img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/Pushing_code_save.png" alt="Save changes in VSC" width="600"/>
@@ -31,7 +34,8 @@ When changes have been made in your repository, this will need to be pushed to o
 
 <img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/Push.png" alt="Push to origin" width="600"/>
 
-**Pulling from origin**
+**Pulling from origin:**
+
 When someone else has pushed to origin, you will want to pull from origin to import the changes and additions they have made. This is done by pressing "Fetch origin" and then "Pull origin" as highlighted.
 
 <img src="https://github.com/s203910/BIManalyst_g_25/blob/main/A4/Fetch_button.png" alt="Fetch origin" width="600"/>
