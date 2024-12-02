@@ -41,6 +41,7 @@
 
 # **Summary of feedback**
  **Nice**
+ The tutorial targets first-time GitHub users, focusing on GitHub Desktop. While alternatives include using GitHub's online version, the tutorial is clear, efficient, and beginner-friendly. Improvements could include using red squares instead of lines, and a video format is suggested to make it even easier to follow. Overall, it is highly detailed and accessible.
 
 
 
