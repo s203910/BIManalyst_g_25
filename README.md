@@ -2,7 +2,7 @@
 
 # Focus area is structural 
 
-# The script checks if beams have assigned crosseections and materiale properties. If not, it is possible to assign those properties using the script.
+# The script checks if beams have assigned crosseections and materiale properties. If not, it is possible to assign those properties using the script. You run the script using main.py.
 
 
 
