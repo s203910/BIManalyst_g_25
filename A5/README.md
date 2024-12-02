@@ -1,21 +1,24 @@
-# **Reflections Thomas**
- **The problem**
- In order to perform an analysis of the beams in the structural model, certain material properties such as cross section and E-module need to be specified. This information should therefore be available in the model.
+# **Reflections s203910**
+ **Learning Experience**
+ At the start of the course I knew how to do basic models in Blender Bonsai from having the course OpenBIM. At the end of the course I knew how to actually read, process and adjust data in an IfcModel without even opening it, with a python script through github.
+ Getting more familiar with Ifc - and Python too - would allow me to do just about anything in terms fo modelling through python scripts.
 
- **The tool**
- The tool will check for this information to verify it's presence to ensure that it is added to the model and can be used for further analysis. Material properties do not exist, the tool can add these for each specific beam type, classified by cross section.
+ **Process of developing the tutorial**
+ No matter how much I decide to improve at OpenBIM usage later in my studies, the tools I've learnt in this course will allow me to caster read, edit and work with IfcModels for the rest of my studies and career.
+ The amount of choice in the use cases was adequate.
+ I think the scope of the course was a bit too broad and it would have been a better learning experience to spend a bit more time of the core focuses on the course and less on extra tools / concepts.
 
- The tool acts as quality control as material properties might not be in the IfcModel, which hinders structural analysis. 
+ **My future for Advanced use of OpenBIM**
+ I will likely use OpenBIM in my thesis if a use case comes up. I do not plan on specializing specifically in OpenBIM use.
+ I will likely use OpenBIM in my career if it will improve my efficiency.
 
- The script consists of `main.py` which calls 2 different functions `analyze_cross_sections(model_path)` and `assign_properties(model_path, cross_sections)`.
+ **Wrap up**
+ I liked that A1-A5 were tied together and that the whole course felt like a project, while also learning a lot and applying concepts and tools throughout. 
+ A3 was an interesting assignment, and while I'm happy with the outcome, due to my limited python experience it was challenging to make something too comprehensive.
+ I liked the idea of A4, but it did feel a bit out of place.
+ Overall the manager - anaylyst relationsships limits creativity, as managers need to be able to keep tabs on all projects. We "overdid" an early assignment and were asked to tone it down a bit so managers didn't have to do extra work.
  
- In order to run the tool, one must do the following:
- 1. Ensure that the `main.py` can access the model.
- 2. Input the model name in the `main.py`.
- 3. Call the function `analyze_cross_sections(model_path)`.
- 4. See which beams are missing E-module, moment of inertia and moment of resistance.
- 5. If material properties should be assigned for a group of beams with a certain cross section, fill in (with,height,E_module) under `cross_section` in `main.py`, and call the function `assign_properties(model_path, cross_sections)`.
- 6. (Repeat step 3 to confirm result).
+ 
 
 # **Reflection Andreas**
 **Identify your own level at the beginning of this course and where you ended**
