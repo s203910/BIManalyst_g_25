@@ -39,6 +39,9 @@
 **Was the number of tools for the course ok – should we have more or less? If so, which ones would you leave out?**
  As mentioned, the course seems to have a very low threshold. I would have liked there to be more material to work through or at least clearer boundaries regarding what is required at different stages of the course. The course is too loosely structured, and I found it challenging to determine what was expected of me at any given time. 
 
+**Wrap up**
+ The integration of A1-A5 into a cohesive project was a highlight of the course, as it allowed for consistent learning and application of concepts and tools. While the idea behind A4 was appreciated, it felt slightly out of place. The manager-analyst relationship, however, tended to limit creativity, as managers needed to oversee all projects. This led to situations where efforts had to be scaled back, such as in an early assignment where an overambitious approach required adjustment to reduce managerial workload.
+
 # **Summary of feedback**
  
  **Group 23**
