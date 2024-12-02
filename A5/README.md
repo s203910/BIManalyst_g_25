@@ -20,7 +20,7 @@
  
  
 
-# **Reflection Andreas**
+# **Reflection s214272**
  **Identify your own level at the beginning of this course and where you ended**
  At the beginning, I was definitely a self-learner, having been exposed to the concepts both at work and at university. However, this exposure was limited to some interactions with the concepts of ontology and Molio standards. Over the course, I feel I’ve moved closer to understanding the importance of having a "common language" in OpenBIM, even though I still don’t fully grasp all the standards and terms used.
 
@@ -40,8 +40,11 @@
  As mentioned, the course seems to have a very low threshold. I would have liked there to be more material to work through or at least clearer boundaries regarding what is required at different stages of the course. The course is too loosely structured, and I found it challenging to determine what was expected of me at any given time. 
 
 # **Summary of feedback**
- **Nice**
+ 
+ **Group 23**
  The tutorial targets first-time GitHub users, focusing on GitHub Desktop. While alternatives include using GitHub's online version, the tutorial is clear, efficient, and beginner-friendly. Improvements could include using red squares instead of lines, and a video format is suggested to make it even easier to follow. Overall, it is highly detailed and accessible.
 
+ Overall helpful feedback.
 
-
+ **Group 24**
+ Their only feedback was to make a video tutorial instead, which we had intentionally decided not to. In other words, not very helpful.
